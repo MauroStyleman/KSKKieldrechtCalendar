@@ -11,42 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f86ff759-3c57-47e7-8e46-4f61c25b4347" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/CalendarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KSK2calendar.ics" beforeDir="false" afterPath="$PROJECT_DIR$/KSK2calendar.ics" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Match.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Match.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/KSKKieldrecht1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/KSKKieldrecht1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/KSKKieldrecht1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/KSKKieldrecht1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/KSKKieldrecht1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/KSKKieldrecht1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.build.KSKKieldrecht1.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.KSKKieldrecht1.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.KSKKieldrecht1.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/KSKKieldrecht1.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/KSKKieldrecht1.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/KSKKieldrecht1.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/KSKKieldrecht1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728307443540</updated>
-      <workItem from="1728307445018" duration="2689000" />
+      <workItem from="1728307445018" duration="2992000" />
     </task>
     <servers />
   </component>

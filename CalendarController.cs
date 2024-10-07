@@ -40,10 +40,11 @@ public class CalendarController : ControllerBase
                                $"STATUS:CONFIRMED\n" +
                                $"END:VEVENT\n";
             calendar += eventDetails;
-            var endCalendar = "END:VCALENDAR";
-            calendar += endCalendar;
+          
 
         }
+        var endCalendar = "END:VCALENDAR";
+        calendar += endCalendar;
 
         string filePath = Path.Combine(Directory.GetCurrentDirectory(), "KSK2calendar.ics");
         System.IO.File.WriteAllText(filePath, calendar);
