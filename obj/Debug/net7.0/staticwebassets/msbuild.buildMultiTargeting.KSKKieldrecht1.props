@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\KSKKieldrecht1.props" />
+</Project>
