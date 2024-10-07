@@ -1,0 +1,33 @@
+name: Update ICS File
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # This means at midnight UTC every day
+  workflow_dispatch: # This allows manual triggering of the workflow if needed
+
+jobs:
+  update_ics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '7.0.13' # Use the version you need
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Run script to update ICS file
+        run: dotnet run --project KSKKieldrecht1.csproj # Replace with your project name
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "mauro.styleman@users.noreply.github.com" 
+          git config --local user.name "Mauro Styleman" # Replace with your name
+          git add KSK2calendar.ics
+          git commit -m "Update ICS file" || echo "No changes to commit"
+          git push origin main # Push changes to the main branch
