@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht1\\KSKKieldrecht1.csproj": {}
+    "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht2\\KSKKieldrecht1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht1\\KSKKieldrecht1.csproj": {
+    "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht2\\KSKKieldrecht1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht1\\KSKKieldrecht1.csproj",
+        "projectUniqueName": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht2\\KSKKieldrecht1.csproj",
         "projectName": "KSKKieldrecht1",
-        "projectPath": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht1\\KSKKieldrecht1.csproj",
+        "projectPath": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht2\\KSKKieldrecht1.csproj",
         "packagesPath": "C:\\Users\\mauro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht1\\obj\\",
+        "outputPath": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mauro\\AppData\\Roaming\\NuGet\\NuGet.Config"

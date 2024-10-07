@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hIm3+4vRhZ2GARNOcLLyY8Erxw9u1o2aN0W51F5CQG5iQ95M7w+HxrGHwPRAQ/pBcf6FVkBZyN9t+Rkh/o914w==",
+  "dgSpecHash": "XG0y+9X/tUuA1FOO8UANQ9n1GsGNmYOVnHD3Hw3UwI58BYIzEvU8xhaaG7mHu/dblX9z7SiU++TdNKfhBkcPuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht1\\KSKKieldrecht1.csproj",
+  "projectFilePath": "C:\\Users\\mauro\\KDG\\PersonalProjects\\KSKKieldrecht2\\KSKKieldrecht1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauro\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\mauro\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
