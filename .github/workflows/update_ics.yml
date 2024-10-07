@@ -16,7 +16,8 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '7.0.13' # Use the version you need
+          dotnet-version: '7.0' # Use the version you need
+          verbose: true
 
       - name: Restore dependencies
         run: dotnet restore KSKKieldrecht1.csproj # Specify the project file here
