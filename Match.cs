@@ -1,4 +1,6 @@
-﻿namespace KSKKieldrecht1;
+﻿using System;
+
+namespace KSKKieldrecht1;
 
 public class Match
 {

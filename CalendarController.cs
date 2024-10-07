@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Globalization;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace KSKKieldrecht1;
 
@@ -26,12 +27,12 @@ public class CalendarController : ControllerBase
 
     private string GenerateIcs(Match[] matches)
     {
-        var calendar = "BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\n";
+        var calendar = "BEGIN:VCALENDAR\nPRODID:KSK. KIELDRECHT RESERVEN\nVERSION:2.0\nCALSCALE:GREGORIAN\n";
 
         foreach (var match in matches)
         {
             var eventDetails = $"BEGIN:VEVENT\n" +
-                               $"UID:{match.Id}@example.com\n" +
+                               $"UID:{match.Id}\n" +
                                $"DTSTAMP:{DateTime.UtcNow.ToString("yyyyMMddTHHmmssZ", CultureInfo.InvariantCulture)}\n" +
                                $"DTSTART:{match.StartTime.ToString("yyyyMMddTHHmmssZ", CultureInfo.InvariantCulture)}\n" +
                                $"SUMMARY:{match.HomeTeam.Name} vs {match.AwayTeam.Name}\n" +
@@ -39,6 +40,9 @@ public class CalendarController : ControllerBase
                                $"STATUS:CONFIRMED\n" +
                                $"END:VEVENT\n";
             calendar += eventDetails;
+            var endCalendar = "END:VCALENDAR";
+            calendar += endCalendar;
+
         }
 
         string filePath = Path.Combine(Directory.GetCurrentDirectory(), "KSK2calendar.ics");
